@@ -39,7 +39,7 @@
    3.python manage.py makemigrations
    4.python manage.py sqlmigrate <app-name>
    
-8. What are the various file that are created  When you create the django project?
+8. What are the various file that are created  When you create the django project?<br/>
    1.![Django-file-structure](https://user-images.githubusercontent.com/16534178/149963117-037c54b1-71e2-4701-a8f8-befd58f4ae72.jpg)
  
 9. What are models<br/>
