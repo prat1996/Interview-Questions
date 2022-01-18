@@ -47,6 +47,7 @@
 
 10.What are views?
    1.![image](https://user-images.githubusercontent.com/16534178/149963590-7ded8fed-c85e-4697-82de-30d3d0161735.png)
+   
 
 
 
