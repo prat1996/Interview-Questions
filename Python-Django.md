@@ -65,6 +65,14 @@
    
 15. Explain the field class <br/>
    ![image](https://user-images.githubusercontent.com/16534178/149966622-484172ca-a367-4820-b6bd-c448d500684b.png)
+   
+16. What are mixins? <br/>
+   ![image](https://user-images.githubusercontent.com/16534178/149966901-1db5356d-af6b-40df-b264-851cc1141aed.png)
+   
+17. What is session? <br/>
+   ![image](https://user-images.githubusercontent.com/16534178/149967254-01f5fd73-10bc-4c43-9958-bcd6e15df4e5.png)
+
+
 
    
 
