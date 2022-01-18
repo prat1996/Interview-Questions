@@ -57,7 +57,6 @@
 13. Diffrent inheritance style in django? <br/>
    1.![image](https://user-images.githubusercontent.com/16534178/149965155-faea22fa-47e5-4983-a85c-97d45218479c.png)
 
-   
 14. What are signals in django? <br/>
    ![image](https://user-images.githubusercontent.com/16534178/149965560-5645f637-db58-447e-a19d-3093dd568a8d.png)
 
