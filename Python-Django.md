@@ -2,6 +2,6 @@
 
 1. Diffrence between Flask and django
 2. What is Django
-  -> Web development framework
-  -> Free and open source
-  -> Goal is development quick and easy
+   1. Web development framework
+   2. Free and open source
+   3. Goal is development quick and easy
