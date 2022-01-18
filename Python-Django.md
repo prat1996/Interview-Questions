@@ -42,10 +42,10 @@
 8. What are the various file that are created  When you create the django project?
    1.![Django-file-structure](https://user-images.githubusercontent.com/16534178/149963117-037c54b1-71e2-4701-a8f8-befd58f4ae72.jpg)
  
-9. What are models
+9. What are models<br/>
    1.![image](https://user-images.githubusercontent.com/16534178/149963364-8bf64ad3-c4dd-460c-93f2-76b39e27e011.png)
 
-10.What are views?
+10.What are views <br/>
    1.![image](https://user-images.githubusercontent.com/16534178/149963590-7ded8fed-c85e-4697-82de-30d3d0161735.png)
    
 
