@@ -82,6 +82,7 @@
    ![image](https://user-images.githubusercontent.com/16534178/149967937-a2d4208a-0fed-4539-bf8f-7730dab16545.png)
 22. Explain the use of middleware in django? <br/>
    ![image](https://user-images.githubusercontent.com/16534178/149968229-4438373b-1cd3-4558-94ca-bf56b545fbae.png)
+   
 23.Significance of manage.py file? <br/>
    ![image](https://user-images.githubusercontent.com/16534178/149968483-154fa8ab-8b47-4162-bbcf-93eed4ae7df7.png)
 24. Explain the migrate command? <br/>
