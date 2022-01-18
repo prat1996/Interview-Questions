@@ -28,9 +28,9 @@
    7.Esily shift into raw sql 
 
 6.Explain Django architecture
-   ![architecture](https://user-images.githubusercontent.com/16534178/149961434-b8b6651b-578a-4594-8ecd-4cd8a77ee02b.png)
-   1.View : View discribe data presented to the user
-   2.Template deals with presentation of the data
-   3.Controllers in the django send the request to the appropriate view
+   1. ![architecture](https://user-images.githubusercontent.com/16534178/149961434-b8b6651b-578a-4594-8ecd-4cd8a77ee02b.png)
+   2. View : View discribe data presented to the user
+   3. Template deals with presentation of the data
+   4. Controllers in the django send the request to the appropriate view
    
 7.
