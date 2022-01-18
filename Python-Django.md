@@ -72,6 +72,18 @@
 17. What is session? <br/>
    ![image](https://user-images.githubusercontent.com/16534178/149967254-01f5fd73-10bc-4c43-9958-bcd6e15df4e5.png)
 
+18. What is context? <br/>
+   ![image](https://user-images.githubusercontent.com/16534178/149967477-30287612-9102-4d84-bce9-3b19917afc6e.png)
+   
+19. When can we make the use of iteration in django ORM? <br/>
+   ![image](https://user-images.githubusercontent.com/16534178/149967741-fb2b7353-8149-4b91-8d37-8e0fda072b06.png)
+
+20. Explain caching strategy used in django <br/>
+   ![image](https://user-images.githubusercontent.com/16534178/149967937-a2d4208a-0fed-4539-bf8f-7730dab16545.png)
+22.
+
+
+
 
 
    
