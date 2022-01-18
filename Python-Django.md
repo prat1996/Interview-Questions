@@ -27,11 +27,13 @@
    6.Flexibiltiy while using url
    7.Esily shift into raw sql 
 
-6.Explain Django architecture
+6.Explain Django architecture<br/>
    1. ![architecture](https://user-images.githubusercontent.com/16534178/149961434-b8b6651b-578a-4594-8ecd-4cd8a77ee02b.png)
-   2. View : View discribe data presented to the user
-   3. Template deals with presentation of the data
-   4. Controllers in the django send the request to the appropriate view
+   2. <br/>
+   3. View : View discribe data presented to the user
+   4. Template deals with presentation of the data
+   5. Controllers in the django send the request to the appropriate view
+ 
    
 7. How do you connect your Django project to the database
    1.Use the following commands
