@@ -48,6 +48,22 @@
 10.What are views <br/>
    1.![image](https://user-images.githubusercontent.com/16534178/149963590-7ded8fed-c85e-4697-82de-30d3d0161735.png)
    
+11. What are templates <br/>
+   1. ![image](https://user-images.githubusercontent.com/16534178/149964523-de1c4e32-01b5-4826-9983-020ae3012e39.png)
+
+12. Diffrence betwwen project and app? <br/>
+   ![image](https://user-images.githubusercontent.com/16534178/149964767-56975049-5737-478f-8a48-f84e04b3066c.png)
+   
+13. Diffrent inheritance style in django? <br/>
+   1.![image](https://user-images.githubusercontent.com/16534178/149965155-faea22fa-47e5-4983-a85c-97d45218479c.png)
+
+   
+14. What are signals in django? <br/>
+   ![image](https://user-images.githubusercontent.com/16534178/149965560-5645f637-db58-447e-a19d-3093dd568a8d.png)
+
+   
+15. 
+   
 
 
 
