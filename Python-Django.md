@@ -86,6 +86,12 @@
    ![image](https://user-images.githubusercontent.com/16534178/149968483-154fa8ab-8b47-4162-bbcf-93eed4ae7df7.png)
 24. Explain the migrate command? <br/>
    ![image](https://user-images.githubusercontent.com/16534178/149968742-ca2e8f40-f981-4f3f-b2fe-594d9f29f001.png)
+   
+25. Explain how request is proccessed in django? <br/>
+   ![image](https://user-images.githubusercontent.com/16534178/149969048-847e7958-d068-4f33-9a01-e28f3b0601cd.png)
+26. Execption class present in django? <br/>
+   ![image](https://user-images.githubusercontent.com/16534178/149969638-b7612550-aff0-4266-99bb-5bbc1989f0a1.png)
+27.
 
 
 
