@@ -33,4 +33,20 @@
    3. Template deals with presentation of the data
    4. Controllers in the django send the request to the appropriate view
    
-7.
+7. How do you connect your Django project to the database
+   1.Use the following commands
+   2.python manage.py migrate
+   3.python manage.py makemigrations
+   4.python manage.py sqlmigrate <app-name>
+   
+8. What are the various file that are created  When you create the django project?
+   1.![Django-file-structure](https://user-images.githubusercontent.com/16534178/149963117-037c54b1-71e2-4701-a8f8-befd58f4ae72.jpg)
+ 
+9. What are models
+   ![image](https://user-images.githubusercontent.com/16534178/149963364-8bf64ad3-c4dd-460c-93f2-76b39e27e011.png)
+
+10.What are views?
+   ![image](https://user-images.githubusercontent.com/16534178/149963590-7ded8fed-c85e-4697-82de-30d3d0161735.png)
+
+
+
