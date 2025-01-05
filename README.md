@@ -84,3 +84,267 @@ This question bank covers **JavaScript** and **React** topics. You can later add
 
 ---
 
+# Python & Related Topics – Interview Question Bank
+
+Below is a curated list of topics and example questions based on the items seen in the provided image, along with some additional questions to deepen your interview preparation. Feel free to add or remove questions based on the role requirements and time constraints.
+
+---
+
+## 1. Time Complexity
+
+1. **Explain time complexity in the context of Python.**  
+   - What is Big-O notation?  
+   - How do you analyze the time complexity of a Python function or algorithm?
+
+2. **Compare the time complexities of different collection operations.**  
+   - Inserting, deleting, or accessing elements in lists, dictionaries, and sets.
+
+3. **How do you optimize code for better time complexity?**  
+   - Provide an example of an algorithm that went from O(n²) to O(n).
+
+---
+
+## 2. Memory Management in Python
+
+1. **How does Python manage memory for objects?**  
+   - Reference counting and garbage collection (generational GC).
+
+2. **What is a memory leak in Python, and how can it occur?**  
+   - Circular references, improper global usage, etc.
+
+3. **Explain the difference between stack and heap memory.**  
+   - Where do variables, objects, and function calls reside?
+
+4. **How would you profile memory usage in a Python application?**  
+   - Tools such as `memory_profiler`, `objgraph`, etc.
+
+---
+
+## 3. The Global Interpreter Lock (GIL)
+
+1. **What is the GIL in Python, and why does it exist?**  
+   - Impact on multi-threading and concurrency.
+
+2. **How does the GIL affect CPU-bound vs. I/O-bound programs?**  
+   - When is threading advantageous, or when to consider multiprocessing?
+
+3. **Explain ways to bypass or mitigate GIL limitations.**  
+   - Using `multiprocessing`, `asyncio`, or external libraries (NumPy, etc.).
+
+---
+
+## 4. Object-Oriented Programming (OOP) in Python
+
+1. **Explain the basic OOP principles (Inheritance, Encapsulation, Polymorphism, Abstraction).**  
+2. **Describe how you’d implement polymorphism in Python with an example.**  
+3. **What is multiple inheritance, and how does the MRO (Method Resolution Order) work in Python?**  
+4. **Explain the difference between class methods, instance methods, and static methods.**
+
+---
+
+## 5. Data Types in Python
+
+1. **List some built-in data types in Python.**  
+   - `int`, `float`, `bool`, `str`, `list`, `tuple`, `dict`, `set`, etc.
+
+2. **Immutable vs. Mutable data types.**  
+   - How do they differ, and why does it matter?
+
+3. **What are the differences between a list and a tuple?**  
+   - Performance, mutability, use cases.
+
+4. **Explain how Python handles large integers.**
+
+---
+
+## 6. `__name__ == "__main__"` Idiom
+
+1. **What does `if __name__ == "__main__":` mean in Python?**  
+   - Why is it used, and where do you typically see it?
+
+2. **Explain the difference between running a Python script vs. importing it as a module.**
+
+---
+
+## 7. Generators in Python
+
+1. **What are generators, and how do they differ from regular functions?**  
+   - `yield` keyword usage.
+
+2. **Advantages of using generators.**  
+   - Memory efficiency (lazy evaluation), clarity in code.
+
+3. **Explain how to create a generator expression vs. a list comprehension.**
+
+---
+
+## 8. Decorators in Python
+
+1. **What is a decorator, and how is it defined in Python?**  
+2. **Explain the syntax and typical use cases for decorators.**  
+   - Logging, authorization, caching, etc.
+
+3. **What is the difference between a function decorator and a class decorator?**
+
+---
+
+## 9. Lazy Loading
+
+1. **What does lazy loading mean in the context of Python (and web frameworks)?**  
+   - Delaying object loading until it’s needed.
+
+2. **Explain scenarios where lazy loading is beneficial.**  
+   - Large data sets, ORM relationships in Django, performance considerations.
+
+---
+
+## 10. Django vs. Flask
+
+1. **Compare Django and Flask in terms of structure, scalability, and community support.**  
+2. **When would you choose Django over Flask, and vice versa?**  
+3. **Name some features or built-in functionalities Django provides out of the box.**
+
+---
+
+## 11. List Methods in Python
+
+1. **What are common list methods in Python, and how do they work?**  
+   - `append`, `extend`, `insert`, `pop`, `remove`, `sort`, `reverse`, `index`, etc.
+
+2. **Explain the difference between `append` and `extend`.**  
+3. **How would you slice a list, and why might that be useful?**
+
+---
+
+## 12. `try-except` (Exception Handling)
+
+1. **How do you handle exceptions in Python using `try-except` blocks?**  
+2. **Explain `try-except-else-finally`.**  
+3. **How can you create custom exceptions in Python, and when is it appropriate?**
+
+---
+
+## 13. File Handling
+
+1. **How do you open and close files in Python safely?**  
+   - Using the `with open(...) as f:` context manager.
+
+2. **Reading vs. writing files.**  
+   - `read()`, `readline()`, `readlines()`, `write()`, `writelines()`, etc.
+
+3. **Binary files vs. text files.**  
+   - Common use cases for each.
+
+---
+
+## 14. String Methods in Python
+
+1. **Common string methods: `split`, `join`, `replace`, `strip`, etc.**  
+2. **How do Python strings handle immutability?**  
+3. **String formatting options:**  
+   - f-strings, `.format()`, `%` formatting.
+
+---
+
+## 15. Date and Time in Python
+
+1. **How to work with dates and times in Python using the `datetime` module.**  
+2. **Converting between different time zones.**  
+   - Libraries: `pytz`, `zoneinfo`.
+
+3. **Parsing and formatting dates.**  
+   - `strftime`, `strptime`.
+
+---
+
+## 16. Database Fundamentals
+
+### ACID Properties
+
+1. **What are ACID properties in the context of database transactions?**  
+   - Atomicity, Consistency, Isolation, Durability.
+
+2. **Explain how Python’s ORM frameworks (e.g., Django ORM) handle transactions.**
+
+### Joins
+
+1. **What are different types of JOINs (INNER, LEFT, RIGHT, FULL) in SQL?**  
+   - When would you use each?
+
+2. **How do you perform joins using the Django ORM (if applicable)?**
+
+### SQL vs. NoSQL
+
+1. **What are the differences between relational (SQL) and non-relational (NoSQL) databases?**  
+2. **Which scenarios are best suited for NoSQL?**  
+   - Horizontal scaling, unstructured data, etc.
+
+3. **What are some popular NoSQL databases (MongoDB, Redis, Cassandra)?**
+
+### Sharding
+
+1. **What is sharding, and why is it used?**  
+2. **Discuss the challenges or trade-offs with sharding in large-scale applications.**
+
+### 1:1, 1:M, M:M Relationships
+
+1. **Explain how these relationship types work in relational databases.**  
+2. **How does Django define relationships using models (OneToOneField, ForeignKey, ManyToManyField)?**
+
+---
+
+## 17. Design Patterns
+
+1. **What are design patterns, and why are they important?**  
+2. **Name a few common design patterns you’ve used in Python.**  
+   - Singleton, Factory, Observer, etc.
+
+3. **How might the Factory pattern or Singleton pattern be implemented in Python?**
+
+---
+
+## 18. Security/Cybersecurity (SOAR, SIEM)
+
+> **(These topics may be role-dependent, but can be useful for security-focused positions.)**
+
+1. **What is SOAR (Security Orchestration, Automation, and Response)?**  
+   - How does it integrate with existing security systems?
+
+2. **What is SIEM (Security Information and Event Management)?**  
+   - How might you incorporate logging/monitoring in a Python application?
+
+3. **Basic security best practices in Python or web frameworks.**  
+   - Input validation, sanitizing data, securing secrets, etc.
+
+---
+
+## 19. Coding Exercises & LeetCode-Style Questions
+
+1. **Explain how you typically solve problems on LeetCode or other platforms.**  
+   - Outline your problem-solving approach, data structures, and algorithms.
+
+2. **Common problem patterns:**  
+   - Two pointers, sliding window, BFS/DFS, dynamic programming, etc.
+
+3. **Walkthrough example:**  
+   - Given a problem to find the longest substring without repeating characters, how would you solve it?
+
+---
+
+## Tips & Follow-up
+
+- **Scenario-based questions:**  
+  - “How would you scale a Python application with high read/write demands?”  
+  - “How do you handle large file uploads in Django or Flask?”
+
+- **Real-world application:**  
+  - Always ask, “Where have you used this?” or “How would you apply this pattern or library in a real scenario?”
+
+- **Deep dive:**  
+  - For each topic, be prepared to go one or two levels deeper (e.g., code examples, performance considerations, design trade-offs).
+
+---
+
+**Use this list as a starting point, and adjust the depth of questions according to the candidate’s experience level and the specific requirements of the role. Good luck with your interviews!**
+
+
