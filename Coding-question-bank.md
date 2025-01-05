@@ -91,7 +91,6 @@ Write a **generator** function in Python that yields only the prime numbers from
 
 **Question**  
 You are given two arrays representing arrival and departure times of trains at a station:
-```python
 arr = [100, 130, 215, 245, 315, 330, 400]
 dep = [150, 415, 240, 355, 405, 350, 450]
 
