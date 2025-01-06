@@ -1,7 +1,18 @@
 ### SQL Query questions
+**Say we have two tables, Orders and Products** 
+orders table has:
+   1. id
+   2. product_id (foreign key to product table)
+   3. price
+   4. date (not relevant to the question)
 
-I hope you're doing well. I have an interview scheduled for tomorrow and would like to request permission to work from home on that day. I will ensure that the KT sessions are taken in a timely manner.
+product table has:
+   1. id (pk)
+   2. name
 
-I appreciate your consideration of this request.
+Write the SQL query to find the 3 topmost selling product and the total sales made (product_name, total_sales)
 
-Thank you for your understanding.
+
+solve above and explain in detail steps involved
+
+-----------------------------------------------------------------------------
