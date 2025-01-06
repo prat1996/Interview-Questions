@@ -14,7 +14,6 @@ Write the SQL query to find the 3 topmost selling product and the total sales ma
 
 
 solve above and explain in detail steps involved
---
 SELECT p.name AS product_name,
        SUM(o.price) AS total_sales
 FROM orders o
@@ -22,7 +21,7 @@ JOIN products p ON o.product_id = p.id
 GROUP BY p.name
 ORDER BY total_sales DESC
 LIMIT 3;
---
+
 
 
 -----------------------------------------------------------------------------
