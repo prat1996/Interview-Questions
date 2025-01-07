@@ -232,13 +232,12 @@ print(check_duplicate(list_1))
 
 
 ```
-
-# Examples => Expected Output
-# [7, 1]  =>  [1, 7]
-# [5, 8, 6, 3, 4]  =>  [3, 8, 6, 5, 4]
-# [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]  =>  [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]
-# [5, 3, 2, 8, 1, 4] => [1, 3, 2, 8, 5, 4]
-# [5, 3, 1, 8, 0] => [1, 3, 5, 8, 0]
+ Examples => Expected Output
+ [7, 1]  =>  [1, 7]
+ [5, 8, 6, 3, 4]  =>  [3, 8, 6, 5, 4]
+ [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]  =>  [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]
+ [5, 3, 2, 8, 1, 4] => [1, 3, 2, 8, 5, 4]
+ [5, 3, 1, 8, 0] => [1, 3, 5, 8, 0]
 
 def sort_even_number(input):
   final_sorted_list=[]
@@ -248,3 +247,48 @@ def sort_even_number(input):
   for i, val in input:
     if val%2 !=0:
       i
+
+```
+
+def custom_check(func):
+    def wrapper():
+      return func().upper()
+    return wrapper
+
+@custom_check
+def test():
+    return "hello"
+    
+print(test())
+
+
+student_data = {
+    'Rohan': {"Course": {"Math":50, "Physics":70, "Chemistry":80}},
+    'Mohan': {"Course": {"Math":67, "Physics":87, "Chemistry":38}},
+    'Pramod': {"Course": {"Math":63, "Physics":67, "Chemistry":95}}
+}
+
+
+def calculate_highest_mark(input):
+    highest_marks=0
+    for student, details in student_data.items():
+          highest_marks = sum(details['Course'].items())
+
+    return {
+        "highest_marks": highest_marks,
+    }
+    
+
+
+--Customers: customer_id    first_name  last_name   age country created_at
+--Orders: order_id  item    amount  customer_id, is_canceled, created_at
+--Shippings: shipping_id    status  customer, is_active, created_at
+
+Find the  Total number of customer in each country
+
+select country, count(*) from customer group_by country;
+
+
+Customer.objects
+
+
