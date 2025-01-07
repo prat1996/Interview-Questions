@@ -211,8 +211,24 @@ Given two strings, determine if they are anagrams of each other (i.e., contain t
    - Write quick test cases or discuss how you’d unit test your solution.
 
 ---
+```
+list_1=[4,4,3,2,4,2,4,1,5,6,4,2,1,4,8]
 
-**These topics, along with the previously listed questions, can help evaluate a candidate’s depth of knowledge in algorithms, data structures, and Python-specific features. Adjust the difficulty and detail based on the role’s requirements.**
+def check_duplicate(input):
+  output={}
+  final_output=[]
+
+  for i, val in enumerate(input):
+      if val in output.keys():
+        output[val]=output[val]+1
+      else:
+        output[val]=1
+  
+  final_output = {x:j for x,j in output.items() if j != 1}
+  
+  return final_output
+        
+print(check_duplicate(list_1))
 
 
 
