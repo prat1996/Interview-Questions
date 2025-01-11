@@ -10,3 +10,9 @@
 9. **Internationalization ?**
 10. **Middleware in python?**
 11. **Manage.py file in django?**
+12. **What are magic methods?**
+13. **Difference between self and cls?**
+14. **Difference between Set and List?**
+15. **How to use pyscopg for connection with db?**
+16. **OOPS concept in detail?**
+17. **What is wraper metthods?**
