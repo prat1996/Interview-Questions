@@ -28,4 +28,4 @@
 1. **Purpose of indexing?**
 2. **Truncate vs delete?**
 3. **Normalization vs Denormalization?**
-4. 
+4. **Unique vs primary key**
