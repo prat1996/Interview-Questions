@@ -14,7 +14,7 @@
 10. **Data structure in python ?**
 11. **Difference between tuppel and dictionary?**
 12. **Methods to get value from dictionary?**
-13. 
+13. **What is monkey patching?**
 
 ### Django 
 1. **What are signals**
