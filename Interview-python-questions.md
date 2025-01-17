@@ -15,6 +15,10 @@
 11. **Difference between tuppel and dictionary?**
 12. **Methods to get value from dictionary?**
 13. **What is monkey patching?**
+14. **How can we write our custom exception?**
+15. **Difference between multiple and multilevel inheritance?**
+16. **LAmbda when to use when not to?**
+17. **What do you mean by stateless?**
 
 ### Django 
 1. **What are signals**
@@ -29,3 +33,13 @@
 2. **Truncate vs delete?**
 3. **Normalization vs Denormalization?**
 4. **Unique vs primary key**
+
+## Kafka
+1. **Pubsub and message que?**
+2. **Polling mechanism?**
+
+
+## Redis Cache
+1 **How to use it?**
+2. **Redis vs DB to store data?**
+
