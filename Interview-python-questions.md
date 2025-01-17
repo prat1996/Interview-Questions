@@ -19,6 +19,7 @@
 15. **Difference between multiple and multilevel inheritance?**
 16. **LAmbda when to use when not to?**
 17. **What do you mean by stateless?**
+18. **How to write a custom exception?**
 
 ### Django 
 1. **What are signals**
