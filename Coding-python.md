@@ -1,4 +1,4 @@
-##Coding Question
+## Coding Question
 
 1. ***Find the firsrt non repeating charhter in string?**
 2. **Swap adjusent number from array?**
