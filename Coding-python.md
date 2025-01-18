@@ -7,4 +7,10 @@
 5. **Find target sum of the number from array?**
 6. **Knapsack problem to improve profitablity?**
 7. **Buying and selling of stocks in a week?**
+8. **Conver Intiger to roman Number?**
+9. **find the largest number from dogonaly?**
+10. **Javascript flaten the number ?**
+11. **Check is string is palindrom or not using two pointer approch?**
+12. **Check if string is anagram?**
+
 
